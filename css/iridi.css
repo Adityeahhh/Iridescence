@@ -200,7 +200,7 @@ body {
   }
   .text {
     text-align: center;
-    margin-top: -100px;
+    margin-top: -10px;
   }
   .text h1 {
     font-family: dongle;
@@ -216,11 +216,10 @@ body {
   }
 }
 
-
 @media (max-width: 397px) {
-    .text h1 {
-        font-size: 78px;
-    }
+  .text h1 {
+    font-size: 78px;
+  }
 }
 
 .media {
