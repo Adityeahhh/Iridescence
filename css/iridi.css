@@ -234,4 +234,35 @@ body {
 .media i:hover {
   color: white;
 }
+
+.nav-links-minimal a {
+  color: #e6e3e3;
+  font-weight: bold;
+  font-weight: 300;
+}
+
+.nav-links-minimal a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+
+.linky {
+  color: #e6e3e3;
+  font-weight: bold;
+  font-weight: 300;
+}
+
+.linky:hover {
+  color: white;
+  font-weight: 300;
+}
+
+.disabled a {
+  color: #e6e3e3a2;
+}
+
+.disabled a:hover {
+  color: #e6e3e3a2;
+  font-weight: 300;
+}
 /*# sourceMappingURL=iridi.css.map */
