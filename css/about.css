@@ -37,24 +37,14 @@ html, body {
   color: #2b2b2b;
 }
 
-.nav-links-minimal ul li::after {
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #3b2e2e;
-  display: block;
-  margin: auto;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.nav-links-minimal ul li::after:hover::after {
-  width: 100%;
-}
-
 .nav-links-minimal a {
   color: #e6e3e3;
   font-weight: bold;
+  font-weight: 300;
+}
+
+.nav-links-minimal a:hover {
+  color: #da89af;
   font-weight: 300;
 }
 
@@ -122,6 +112,37 @@ html, body {
   border: 5px solid #1f1d1d;
 }
 
+.select-black::-moz-selection {
+  background-color: #2b2b2b;
+  color: #da89af;
+}
+
+.select-black::selection {
+  background-color: #2b2b2b;
+  color: #da89af;
+}
+
+.hero .heading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-family: raleway;
+  font-size: 68px;
+  color: #2b2b2b;
+}
+
+.hero p {
+  font-family: raleway;
+  font-size: 24px;
+  color: #2b2b2b;
+  padding-top: 20px;
+}
+
 .wave-black {
   left: 0%;
   position: inherit;
@@ -139,6 +160,44 @@ html, body {
   height: 100%;
   background-color: #2b2b2b;
   margin-top: -7px;
+}
+
+@media (max-width: 760px) {
+  .heading {
+    margin-top: 100px;
+  }
+  .hero h1 {
+    font-family: raleway;
+    font-size: 48px;
+    color: #2b2b2b;
+  }
+  .hero p {
+    font-family: raleway;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b2b2b;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 490px) {
+  .heading {
+    margin-top: 100px;
+  }
+  .hero h1 {
+    font-family: raleway;
+    font-size: 34px;
+    color: #2b2b2b;
+  }
+  .hero p {
+    font-family: raleway;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b2b2b;
+    padding-top: 10px;
+    margin-right: 80px;
+    margin-left: 23%;
+  }
 }
 
 .stretch {
